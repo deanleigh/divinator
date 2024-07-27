@@ -1,0 +1,21 @@
+body {
+    font-family: "roboto";
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+  }
+  
+  div {
+    margin-bottom: 1rem;
+  }
+  
+  divinator {
+    
+  }
+  
+  divinator::part(number-box) {
+    
+  }
+  

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="" src="index.js"></script>
+</head>
+<body>
+    <h1>Divinator - Web Component 0.0.3</h1>
+
+<h2>Measure inside the screen</h2>
+
+<measure-bar></measure-bar>
+
+<h2>Measure inside a fixed width div</h2>
+
+<div style="width: 300px;">
+  <measure-bar></measure-bar>
+</div>
+
+<h2>Explanantion</h2>
+
+<p>I wanted to try keeping the style outside the component for now</p>
+<p>I have used 
+<pre><code>measure-bar::part(number-box)</code></pre> in the CSS and 
+<pre><code>numberBox.setAttribute('part', 'number-box');</code></pre> to allow external styling</p>
+<p>I will try to encapsulate the CSS in the next version with the aim of letting the user change colours</p>
+
+</body>
+</html>
