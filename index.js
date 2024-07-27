@@ -1,5 +1,5 @@
 customElements.define(
-  "measure-bar",
+  "div-inator",
   class extends HTMLElement {
     constructor() {
       super();
